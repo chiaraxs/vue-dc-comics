@@ -30,6 +30,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>  
+@import '@/style/variables.scss';
 
 header{
     
@@ -54,7 +55,7 @@ header{
                 display: flex;
 
                 li {
-                    color: #484646;
+                    color: $text-primary-color;
                     padding: 15px;
                     list-style: none;
                     text-transform: uppercase;
@@ -62,8 +63,8 @@ header{
                     cursor: pointer;
                     
                     &:hover{
-                        color:#1e86ed ;
-                        border-bottom: 4px solid #1e86ed;
+                        color: $text-tertiary-color;
+                        border-bottom: 4px solid $text-tertiary-color;
                     }
                 }
             }

@@ -1,5 +1,5 @@
 <template>
-    <div></div>
+    <div class="jumbo"></div>
 </template>
 
 <script>
