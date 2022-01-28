@@ -22,62 +22,9 @@
 
 
 export default {
-    data() {
-        return {
-            navbar: [
-                {
-                    id: "3297503881",
-                    label: "characters",
-                    url: "#"
-                },
-                {
-                    id: "1442072319",
-                    label: "movies",
-                    url: "#"
-                },
-                {
-                    id: "5626500757",
-                    label: "tv",
-                    url: "#"
-                },
-                {
-                    id: "7052945048",
-                    label: "games",
-                    url: "#"
-                },
-                {
-                    id: "9177724316",
-                    label: "collectibles",
-                    url: "#"
-                },
-                {
-                    id: "3550652004",
-                    label: "videos",
-                    url: "#"
-                },
-                {
-                    id: "6313878905",
-                    label: "fans",
-                    url: "#"
-                },
-                {
-                    id: "7986549430",
-                    label: "news",
-                    url: "#"
-                },
-                {
-                    id: "3847282382",
-                    label: "shop",
-                    url: "#"
-                },
-                {
-                    id: "0950959029",
-                    label: "comics",
-                    url: "#"
-                }
-            ],
-        }
-    }
+    props: {
+       navbar: Array,
+    },
 }
 </script>
 
