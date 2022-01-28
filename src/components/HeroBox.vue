@@ -16,6 +16,7 @@ export default {
     height: 400px;
     background-image: $img-hero;
     background-size: cover;
+    border: 1px solid black;
 }
 
 </style>

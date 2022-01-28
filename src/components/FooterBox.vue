@@ -17,7 +17,7 @@
             <ul>
                 <li><h3>shop</h3></li>
                 <li><a href="#">Shop DC</a></li>
-                <li><a href="#">Shop DC Collectibles</a></li>
+                <li><a href="#">Collectibles</a></li>
             </ul>
                     
                 
@@ -54,7 +54,7 @@
 
         <div class="footer-right-logo">
             <img src="../assets/dc-logo-bg.png" alt="">
-        </div>
+        </div> 
         
     </footer>
 </template>
@@ -74,13 +74,14 @@ footer{
     background-size: cover;
 
     .footer-left{
-        max-width: 70%;
         display: flex;
         padding: 70px;
+        margin-left: 20px;
         
 
         ul{
-            margin: 0px 30px 20px;
+            margin: 10px 15px;
+            
 
             li{
             
@@ -107,7 +108,7 @@ footer{
     }
 
     .footer-right-logo{
-       margin: 0px 200px;
+       margin: 10px 200px;
     }
 }
 

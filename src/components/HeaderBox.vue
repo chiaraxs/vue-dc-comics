@@ -43,10 +43,6 @@ header{
 
         .logo{
             margin: 15px 10px;
-            
-            img{
-                width: 80px;
-            }
         }
 
         .header-navbar{
@@ -64,7 +60,7 @@ header{
                     
                     &:hover{
                         color: $text-tertiary-color;
-                        border-bottom: 4px solid $text-tertiary-color;
+                        border-bottom: 5px solid $text-tertiary-color;
                     }
                 }
             }

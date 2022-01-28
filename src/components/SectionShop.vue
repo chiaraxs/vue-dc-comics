@@ -30,7 +30,7 @@
                 <li>
                     <div class="visa">
                         <img src="../assets/buy-dc-power-visa.svg" alt="">
-                        <span>local shop</span>
+                        <span>dc power visa</span>
                     </div> 
                 </li>
                
@@ -67,7 +67,7 @@ section{
                 list-style: none;
                 padding: 20px;
                 cursor: pointer;
-                    
+                
                 img{
                     width: 40px;
                     margin-right: 10px;
@@ -76,12 +76,18 @@ section{
                 &:hover{
                     text-decoration: underline;
                 }
-        
+
             } 
         }
-
+        
         .local-shop img{
             width: 30px;
+        }
+
+        .visa img{
+            width: 47px;
+            margin-top: 13px;
+
         }
     }
 }
