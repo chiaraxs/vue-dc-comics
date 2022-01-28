@@ -72,15 +72,17 @@ footer{
     display: flex;
     background-image: $img-footer;
     background-size: cover;
+    overflow: hidden;
 
     .footer-left{
         display: flex;
         padding: 70px;
         margin-left: 20px;
         
+        
 
         ul{
-            margin: 10px 15px;
+            margin: 10px 15px 10px 30px;
             
 
             li{
@@ -109,6 +111,10 @@ footer{
 
     .footer-right-logo{
        margin: 10px 200px;
+    
+       img{
+        margin: -80px 0;
+       }
     }
 }
 
