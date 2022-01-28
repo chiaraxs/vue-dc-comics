@@ -6,17 +6,12 @@
             </div>
             <nav class="header-navbar">
                 <ul>
-                    <li><a href="#"></a>characters</li>
-                    <li><a href="#"></a>comics</li>
-                    <li><a href="#"></a>movies</li>
-                    <li><a href="#"></a>tv</li>
-                    <li><a href="#"></a>games</li>
-                    <li><a href="#"></a>collectibles</li>
-                    <li><a href="#"></a>videos</li>
-                    <li><a href="#"></a>fans</li>
-                    <li><a href="#"></a>news</li>
-                    <li><a href="#"></a>shop</li>
+                    <li v-for="item in navbar" :key="item.id">
                     
+                    <a :href="item.url"> {{item.label}} </a> 
+                    
+                    
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -24,8 +19,65 @@
 </template>
 
 <script>
+
+
 export default {
-    
+    data() {
+        return {
+            navbar: [
+                {
+                    id: "3297503881",
+                    label: "characters",
+                    url: "#"
+                },
+                {
+                    id: "1442072319",
+                    label: "movies",
+                    url: "#"
+                },
+                {
+                    id: "5626500757",
+                    label: "tv",
+                    url: "#"
+                },
+                {
+                    id: "7052945048",
+                    label: "games",
+                    url: "#"
+                },
+                {
+                    id: "9177724316",
+                    label: "collectibles",
+                    url: "#"
+                },
+                {
+                    id: "3550652004",
+                    label: "videos",
+                    url: "#"
+                },
+                {
+                    id: "6313878905",
+                    label: "fans",
+                    url: "#"
+                },
+                {
+                    id: "7986549430",
+                    label: "news",
+                    url: "#"
+                },
+                {
+                    id: "3847282382",
+                    label: "shop",
+                    url: "#"
+                },
+                {
+                    id: "0950959029",
+                    label: "comics",
+                    url: "#"
+                }
+            ],
+        }
+    }
 }
 </script>
 
@@ -35,7 +87,6 @@ export default {
 header{
     
     .header-container{
-        // max-width: 1200px;
         margin: 0 auto;
         display: flex;
         justify-content: space-around;
@@ -51,7 +102,7 @@ header{
                 display: flex;
 
                 li {
-                    color: $text-primary-color;
+                    
                     padding: 15px;
                     list-style: none;
                     text-transform: uppercase;
@@ -62,10 +113,15 @@ header{
                         color: $text-tertiary-color;
                         border-bottom: 5px solid $text-tertiary-color;
                     }
+
+                    a{
+                        text-decoration: none;
+                        color: $text-primary-color;
+                    }
                 }
             }
         }
     }
-}
+};
 
 </style>
