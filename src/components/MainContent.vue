@@ -9,7 +9,7 @@
             </div>
         </div>
 
-        <!-- <button>load more</button> -->
+        <button>load more</button> 
     </main>
 </template>
 
@@ -59,15 +59,29 @@ main{
             
             img{
                 width: 100%;
+                cursor: pointer;
             }
 
             h3{
                 margin-top: 5px;
             }
         }
-
-        
+   
     }
+
+    button{
+            background-color: $text-tertiary-color;
+            border: none;
+            padding: 15px 50px;
+            margin: 20px auto;
+            color: $text-secondary-color;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+            
+            
+        }
 }
 
 </style>
