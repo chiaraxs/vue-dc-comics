@@ -30,7 +30,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #303030;
+    background-color: $bg-color-main;
 
     .sign-up{
         margin-left: 100px;
@@ -46,6 +46,11 @@ export default {
                 text-transform: uppercase;
                 text-decoration: none;
                 color: $text-secondary-color;
+                font-size: 15px;
+            }
+
+            &:hover{
+                background-color: $bg-color-shop-section;
             }
         }
     }

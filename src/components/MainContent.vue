@@ -60,6 +60,11 @@ main{
             img{
                 width: 100%;
                 cursor: pointer;
+
+                &:hover{
+                    transition: 1s;
+                    transform: scale(1.1);
+                }
             }
 
             h3{
@@ -80,6 +85,9 @@ main{
             font-size: 15px;
             cursor: pointer;
             
+            &:hover{
+                background-color: $text-primary-color;
+            }
             
         }
 }
