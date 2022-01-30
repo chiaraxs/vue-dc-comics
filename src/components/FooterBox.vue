@@ -17,7 +17,7 @@
             <ul>
                 <li><h3>shop</h3></li>
                 <li><a href="#">Shop DC</a></li>
-                <li><a href="#">Collectibles</a></li>
+                <li><a href="#">Shop DC Collectibles</a></li>
             </ul>
                     
                 
@@ -69,6 +69,7 @@ export default {
 @import '@/style/variables.scss';
 
 footer{
+    height: 450px;
     display: flex;
     background-image: $img-footer;
     background-size: cover;
@@ -79,10 +80,10 @@ footer{
         padding: 70px;
         margin-left: 20px;
         
-        
 
         ul{
-            margin: 10px 15px 10px 30px;
+            margin: 0 15px 10px 30px;
+           
             
 
             li{
@@ -92,7 +93,8 @@ footer{
             line-height: 30px;
            
                 h3{
-                    color: $text-secondary-color;
+                    font-size: 18px;
+                    color: $secondary-color;
                     text-transform: uppercase;
                 }
 
@@ -101,7 +103,7 @@ footer{
                     color: grey;
                            
                     &:hover{
-                        color: $text-secondary-color;
+                        color: $secondary-color;
                     }
                 }
 
@@ -113,7 +115,7 @@ footer{
        margin: 10px 200px;
     
        img{
-        margin: -80px 0;
+        margin: -90px 0;
        }
     }
 }

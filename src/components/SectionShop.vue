@@ -4,34 +4,34 @@
 
             <ul>
                 <li>
-                    <div class="comics">
-                        <img src="../assets/buy-comics-digital-comics.png" alt="">
-                        <span>digital comics</span> 
-                    </div> 
+            
+                    <img src="../assets/buy-comics-digital-comics.png" alt="">
+                    <span>digital comics</span> 
+                    
                 </li>
                 <li>
-                    <div class="merchandise">
-                        <img src="../assets/buy-comics-merchandise.png" alt="">
-                        <span>dc merchandise</span>
-                    </div> 
+                    
+                    <img src="../assets/buy-comics-merchandise.png" alt="">
+                    <span>dc merchandise</span>
+                    
                 </li>
                 <li>
-                    <div class="subscription">
-                        <img src="../assets/buy-comics-subscriptions.png" alt=""> 
-                        <span>subscription</span>
-                    </div> 
+                    
+                    <img src="../assets/buy-comics-subscriptions.png" alt=""> 
+                    <span>subscription</span>
+                    
                 </li>
                 <li>
-                    <div class="local-shop">
-                        <img src="../assets/buy-comics-shop-locator.png" alt="">
-                        <span>local shop</span>
-                     </div> 
+                    
+                    <img class="shop-locator" src="../assets/buy-comics-shop-locator.png" alt="">
+                    <span>comic shop locator</span>
+                     
                 </li>
                 <li>
-                    <div class="visa">
-                        <img src="../assets/buy-dc-power-visa.svg" alt="">
-                        <span>dc power visa</span>
-                    </div> 
+                   
+                    <img class="visa" src="../assets/buy-dc-power-visa.svg" alt="">
+                    <span>dc power visa</span>
+                   
                 </li>
                
             </ul>
@@ -50,7 +50,7 @@ export default {
 @import '@/style/variables.scss';
 
 section{
-    background-color: $bg-color-shop-section;
+    background-color: $tertiary-color;
     text-transform: uppercase;
 
     .shop-zone{
@@ -63,14 +63,16 @@ section{
         text-transform: uppercase;
 
             li{
-                color: $text-secondary-color;
+                display: flex;
+                align-items: center;
+                color: $secondary-color;
                 list-style: none;
                 padding: 20px;
                 cursor: pointer;
                 
                 img{
                     width: 40px;
-                    margin-right: 10px;
+                    margin-right: 15px;
                 }
 
                 &:hover{
@@ -80,14 +82,12 @@ section{
             } 
         }
         
-        .local-shop img{
-            width: 30px;
+        .shop-locator{
+            width: 28px;
         }
 
-        .visa img{
-            width: 47px;
-            margin-top: 13px;
-
+        .visa {
+            width: 40px;
         }
     }
 }

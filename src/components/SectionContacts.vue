@@ -38,19 +38,20 @@ export default {
         button{
             background-color: rgb(48, 48, 48);
             border: none;
-            border: 2px solid $text-tertiary-color;
-            padding: 10px;
+            border: 2px solid $tertiary-color;
+            padding: 15px;
             margin: 20px;
 
             a{
                 text-transform: uppercase;
+                font-weight: bold;
                 text-decoration: none;
-                color: $text-secondary-color;
+                color: $secondary-color;
                 font-size: 15px;
             }
 
             &:hover{
-                background-color: $bg-color-shop-section;
+                background-color: $tertiary-color;
             }
         }
     }
@@ -59,29 +60,31 @@ export default {
     .icons-zone{
         display: flex;
         justify-content: space-around;
-        margin-right: 200px;
+        margin-right: 300px;
         
         img {
            padding: 10px;
            width: 50px;
            height: 50px;
+           cursor: pointer;
 
 
            &:hover{
-               background-color: $text-secondary-color;
+               background-color: $secondary-color;
                border-radius: 50px 50px;
             }
         }
 
         span{
-            color: $text-tertiary-color;
+            color: $tertiary-color;
             font-weight: bold;
             font-size: 20px;
             text-transform: uppercase;
             margin: 15px 10px;
+            cursor: pointer;
 
             &:hover{
-                border-bottom: 1px solid $text-tertiary-color;
+                border-bottom: 1px solid $tertiary-color;
             }
         }
     }

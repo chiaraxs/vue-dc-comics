@@ -29,18 +29,18 @@ main{
     background-color: $bg-color-main;
     position: relative;
     text-transform: uppercase;
-    color: $text-secondary-color;
+    color: $secondary-color;
     text-align: center;
     font-size: 13px;
     font-weight: bold;
 
     .current-series{
         position: absolute;
-        margin: -20px 200px;
-        width: 150px;
-        background-color: $bg-color-shop-section;
+        margin: -20px 250px;
+        width: 200px;
+        background-color: $tertiary-color;
         padding:  10px 10px;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .cards-box{
@@ -52,7 +52,7 @@ main{
        
 
         .cards{
-            margin: 30px 0 0 0;
+            margin-top: 30px;
             width: 200px;
             padding: 10px;
            
@@ -62,8 +62,9 @@ main{
                 cursor: pointer;
 
                 &:hover{
-                    transition: 1s;
-                    transform: scale(1.1);
+                    transition: 0,5s;
+                    transform: scale(1.03);
+                    opacity: 50%;
                 }
             }
 
@@ -75,18 +76,18 @@ main{
     }
 
     button{
-            background-color: $text-tertiary-color;
+            background-color: $tertiary-color;
             border: none;
             padding: 15px 50px;
             margin: 20px auto;
-            color: $text-secondary-color;
+            color: $secondary-color;
             text-transform: uppercase;
             font-weight: bold;
             font-size: 15px;
             cursor: pointer;
             
             &:hover{
-                background-color: $text-primary-color;
+                background-color: $primary-color;
             }
             
         }

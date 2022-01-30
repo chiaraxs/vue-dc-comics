@@ -57,13 +57,13 @@ header{
                     cursor: pointer;
                     
                     &:hover{
-                        color: $text-tertiary-color;
-                        border-bottom: 5px solid $text-tertiary-color;
+                        color: $tertiary-color;
+                        border-bottom: 5px solid $tertiary-color;
                     }
 
                     a{
                         text-decoration: none;
-                        color: $text-primary-color;
+                        color: $primary-color;
                     }
                 }
             }
